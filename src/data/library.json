@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "title": "Challenge 1: Javascript Snippet",
+    "code": "const astParser = (code: string) => Acorn.parse(code);",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 2,
+    "title": "Challenge 2: Go Snippet",
+    "code": "const secretPattern = /AI_SECRET_[A-Z0-9]{32}/g;",
+    "difficulty": "medium",
+    "language": "go"
+  },
+  {
+    "id": 3,
+    "title": "Challenge 3: Python Snippet",
+    "code": "const markdownReportGenerator = (data: any) => { /* build md */ };",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 4,
+    "title": "Challenge 4: Rust Snippet",
+    "code": "const schema = z.object({ id: z.string(), value: z.number() });",
+    "difficulty": "hard",
+    "language": "rust"
+  },
+  {
+    "id": 5,
+    "title": "Challenge 5: Python Snippet",
+    "code": "const thermalThrottling = (cpu: number) => cpu > 85 ? 'throttle' : 'ok';",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 6,
+    "title": "Challenge 6: Go Snippet",
+    "code": "const jwtRotation = (token: string) => { /* rotate logic */ };",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 7,
+    "title": "Challenge 7: Javascript Snippet",
+    "code": "// Note: Opted for manual polling here to reduce WebSocket overhead",
+    "difficulty": "hard",
+    "language": "javascript"
+  },
+  {
+    "id": 8,
+    "title": "Challenge 8: Python Snippet",
+    "code": "export interface Agent { name: string; role: 'leader' | 'follower'; }",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 9,
+    "title": "Challenge 9: Python Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 10,
+    "title": "Challenge 10: Go Snippet",
+    "code": "const systemHealthSnapshot = () => ({ status: 'healthy', cpu: 10, mem: 20 });",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 11,
+    "title": "Challenge 11: Javascript Snippet",
+    "code": "const schema = z.object({ id: z.string(), value: z.number() });",
+    "difficulty": "medium",
+    "language": "javascript"
+  },
+  {
+    "id": 12,
+    "title": "Challenge 12: Go Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 13,
+    "title": "Challenge 13: Go Snippet",
+    "code": "const rateLimit = (req, res, next) => { /* check cache */ };",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 14,
+    "title": "Challenge 14: Javascript Snippet",
+    "code": "async function fetchTelemetry() { const res = await fetch('/api/stats'); }",
+    "difficulty": "medium",
+    "language": "javascript"
+  },
+  {
+    "id": 15,
+    "title": "Challenge 15: Python Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 16,
+    "title": "Challenge 16: Go Snippet",
+    "code": "const circuitBreaker = (fn) => { /* logic */ };",
+    "difficulty": "hard",
+    "language": "go"
+  },
+  {
+    "id": 17,
+    "title": "Challenge 17: Rust Snippet",
+    "code": "const leaderFollowerSync = (agents: Agent[]) => agents.map(a => a.sync());",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 18,
+    "title": "Challenge 18: Typescript Snippet",
+    "code": "const indexedDBPersistence = async (data: any) => { await db.put(data); };",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 19,
+    "title": "Challenge 19: Python Snippet",
+    "code": "const typeOverLearning = (progress: number) => progress > 80 ? 'next' : 'stay';",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 20,
+    "title": "Challenge 20: Python Snippet",
+    "code": "const astParser = (code: string) => Acorn.parse(code);",
+    "difficulty": "medium",
+    "language": "python"
+  },
+  {
+    "id": 21,
+    "title": "Challenge 21: Go Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "hard",
+    "language": "go"
+  },
+  {
+    "id": 22,
+    "title": "Challenge 22: Go Snippet",
+    "code": "if (status === 'critical') { triggerAlert(); }",
+    "difficulty": "medium",
+    "language": "go"
+  },
+  {
+    "id": 23,
+    "title": "Challenge 23: Python Snippet",
+    "code": "const indexedDBPersistence = async (data: any) => { await db.put(data); };",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 24,
+    "title": "Challenge 24: Typescript Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 25,
+    "title": "Challenge 25: Typescript Snippet",
+    "code": "const thermalThrottling = (cpu: number) => cpu > 85 ? 'throttle' : 'ok';",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 26,
+    "title": "Challenge 26: Javascript Snippet",
+    "code": "const thermalThrottling = (cpu: number) => cpu > 85 ? 'throttle' : 'ok';",
+    "difficulty": "hard",
+    "language": "javascript"
+  },
+  {
+    "id": 27,
+    "title": "Challenge 27: Typescript Snippet",
+    "code": "async function fetchTelemetry() { const res = await fetch('/api/stats'); }",
+    "difficulty": "easy",
+    "language": "typescript"
+  },
+  {
+    "id": 28,
+    "title": "Challenge 28: Javascript Snippet",
+    "code": "const circuitBreaker = (fn) => { /* logic */ };",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 29,
+    "title": "Challenge 29: Javascript Snippet",
+    "code": "const indexedDBPersistence = async (data: any) => { await db.put(data); };",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 30,
+    "title": "Challenge 30: Go Snippet",
+    "code": "if (status === 'critical') { triggerAlert(); }",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 31,
+    "title": "Challenge 31: Javascript Snippet",
+    "code": "func main() { fmt.Println(\"Sentinel Scanner starting...\") }",
+    "difficulty": "hard",
+    "language": "javascript"
+  },
+  {
+    "id": 32,
+    "title": "Challenge 32: Python Snippet",
+    "code": "const rateLimit = (req, res, next) => { /* check cache */ };",
+    "difficulty": "medium",
+    "language": "python"
+  },
+  {
+    "id": 33,
+    "title": "Challenge 33: Go Snippet",
+    "code": "const indexedDBPersistence = async (data: any) => { await db.put(data); };",
+    "difficulty": "medium",
+    "language": "go"
+  },
+  {
+    "id": 34,
+    "title": "Challenge 34: Rust Snippet",
+    "code": "const d3Visualization = (data: any) => { /* render chart */ };",
+    "difficulty": "medium",
+    "language": "rust"
+  },
+  {
+    "id": 35,
+    "title": "Challenge 35: Javascript Snippet",
+    "code": "const dependencyAuditor = (pkg: string) => { /* audit logic */ };",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 36,
+    "title": "Challenge 36: Python Snippet",
+    "code": "if (status === 'critical') { triggerAlert(); }",
+    "difficulty": "medium",
+    "language": "python"
+  },
+  {
+    "id": 37,
+    "title": "Challenge 37: Go Snippet",
+    "code": "const astParser = (code: string) => Acorn.parse(code);",
+    "difficulty": "hard",
+    "language": "go"
+  },
+  {
+    "id": 38,
+    "title": "Challenge 38: Typescript Snippet",
+    "code": "const threatLevelAlgorithm = (logs: any[]) => logs.length > 100 ? 'high' : 'low';",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 39,
+    "title": "Challenge 39: Python Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 40,
+    "title": "Challenge 40: Rust Snippet",
+    "code": "import { Pino } from 'pino'; const logger = Pino();",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 41,
+    "title": "Challenge 41: Python Snippet",
+    "code": "func main() { fmt.Println(\"Sentinel Scanner starting...\") }",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 42,
+    "title": "Challenge 42: Python Snippet",
+    "code": "const schema = z.object({ id: z.string(), value: z.number() });",
+    "difficulty": "medium",
+    "language": "python"
+  },
+  {
+    "id": 43,
+    "title": "Challenge 43: Typescript Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "easy",
+    "language": "typescript"
+  },
+  {
+    "id": 44,
+    "title": "Challenge 44: Go Snippet",
+    "code": "const redisCacheSet = (key: string, val: string) => { /* set redis */ };",
+    "difficulty": "medium",
+    "language": "go"
+  },
+  {
+    "id": 45,
+    "title": "Challenge 45: Rust Snippet",
+    "code": "const typeOverLearning = (progress: number) => progress > 80 ? 'next' : 'stay';",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 46,
+    "title": "Challenge 46: Go Snippet",
+    "code": "const verifyTelemetryIntegrity = (data: any) => { return data.valid; };",
+    "difficulty": "hard",
+    "language": "go"
+  },
+  {
+    "id": 47,
+    "title": "Challenge 47: Javascript Snippet",
+    "code": "if (status === 'critical') { triggerAlert(); }",
+    "difficulty": "hard",
+    "language": "javascript"
+  },
+  {
+    "id": 48,
+    "title": "Challenge 48: Python Snippet",
+    "code": "// Note: Opted for manual polling here to reduce WebSocket overhead",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 49,
+    "title": "Challenge 49: Rust Snippet",
+    "code": "const threatLevelAlgorithm = (logs: any[]) => logs.length > 100 ? 'high' : 'low';",
+    "difficulty": "hard",
+    "language": "rust"
+  },
+  {
+    "id": 50,
+    "title": "Challenge 50: Go Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "hard",
+    "language": "go"
+  },
+  {
+    "id": 51,
+    "title": "Challenge 51: Javascript Snippet",
+    "code": "const verifyTelemetryIntegrity = (data: any) => { return data.valid; };",
+    "difficulty": "medium",
+    "language": "javascript"
+  },
+  {
+    "id": 52,
+    "title": "Challenge 52: Rust Snippet",
+    "code": "const monacoEditorInit = () => { /* editor setup */ };",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 53,
+    "title": "Challenge 53: Rust Snippet",
+    "code": "if (status === 'critical') { triggerAlert(); }",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 54,
+    "title": "Challenge 54: Javascript Snippet",
+    "code": "const recoveryStrategy = (error: Error) => { logger.error(error); retry(); };",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 55,
+    "title": "Challenge 55: Python Snippet",
+    "code": "const secretPattern = /AI_SECRET_[A-Z0-9]{32}/g;",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 56,
+    "title": "Challenge 56: Javascript Snippet",
+    "code": "export interface Agent { name: string; role: 'leader' | 'follower'; }",
+    "difficulty": "medium",
+    "language": "javascript"
+  },
+  {
+    "id": 57,
+    "title": "Challenge 57: Rust Snippet",
+    "code": "const secretPattern = /AI_SECRET_[A-Z0-9]{32}/g;",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 58,
+    "title": "Challenge 58: Rust Snippet",
+    "code": "const monacoEditorInit = () => { /* editor setup */ };",
+    "difficulty": "medium",
+    "language": "rust"
+  },
+  {
+    "id": 59,
+    "title": "Challenge 59: Javascript Snippet",
+    "code": "async function fetchTelemetry() { const res = await fetch('/api/stats'); }",
+    "difficulty": "hard",
+    "language": "javascript"
+  },
+  {
+    "id": 60,
+    "title": "Challenge 60: Python Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 61,
+    "title": "Challenge 61: Go Snippet",
+    "code": "const markdownReportGenerator = (data: any) => { /* build md */ };",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 62,
+    "title": "Challenge 62: Typescript Snippet",
+    "code": "const circuitBreaker = (fn) => { /* logic */ };",
+    "difficulty": "hard",
+    "language": "typescript"
+  },
+  {
+    "id": 63,
+    "title": "Challenge 63: Rust Snippet",
+    "code": "const jwtRotation = (token: string) => { /* rotate logic */ };",
+    "difficulty": "medium",
+    "language": "rust"
+  },
+  {
+    "id": 64,
+    "title": "Challenge 64: Python Snippet",
+    "code": "def calculate_thermal_throttling(temp): return temp > 90",
+    "difficulty": "medium",
+    "language": "python"
+  },
+  {
+    "id": 65,
+    "title": "Challenge 65: Go Snippet",
+    "code": "import { Pino } from 'pino'; const logger = Pino();",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 66,
+    "title": "Challenge 66: Go Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "medium",
+    "language": "go"
+  },
+  {
+    "id": 67,
+    "title": "Challenge 67: Typescript Snippet",
+    "code": "const dependencyAuditor = (pkg: string) => { /* audit logic */ };",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 68,
+    "title": "Challenge 68: Typescript Snippet",
+    "code": "const thermalThrottling = (cpu: number) => cpu > 85 ? 'throttle' : 'ok';",
+    "difficulty": "hard",
+    "language": "typescript"
+  },
+  {
+    "id": 69,
+    "title": "Challenge 69: Javascript Snippet",
+    "code": "const indexedDBPersistence = async (data: any) => { await db.put(data); };",
+    "difficulty": "medium",
+    "language": "javascript"
+  },
+  {
+    "id": 70,
+    "title": "Challenge 70: Javascript Snippet",
+    "code": "const astParser = (code: string) => Acorn.parse(code);",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 71,
+    "title": "Challenge 71: Python Snippet",
+    "code": "export interface Agent { name: string; role: 'leader' | 'follower'; }",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 72,
+    "title": "Challenge 72: Python Snippet",
+    "code": "const secretPattern = /AI_SECRET_[A-Z0-9]{32}/g;",
+    "difficulty": "medium",
+    "language": "python"
+  },
+  {
+    "id": 73,
+    "title": "Challenge 73: Python Snippet",
+    "code": "import { Pino } from 'pino'; const logger = Pino();",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 74,
+    "title": "Challenge 74: Go Snippet",
+    "code": "const redisCacheSet = (key: string, val: string) => { /* set redis */ };",
+    "difficulty": "hard",
+    "language": "go"
+  },
+  {
+    "id": 75,
+    "title": "Challenge 75: Python Snippet",
+    "code": "def calculate_thermal_throttling(temp): return temp > 90",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 76,
+    "title": "Challenge 76: Typescript Snippet",
+    "code": "const recoveryStrategy = (error: Error) => { logger.error(error); retry(); };",
+    "difficulty": "easy",
+    "language": "typescript"
+  },
+  {
+    "id": 77,
+    "title": "Challenge 77: Rust Snippet",
+    "code": "const rateLimit = (req, res, next) => { /* check cache */ };",
+    "difficulty": "medium",
+    "language": "rust"
+  },
+  {
+    "id": 78,
+    "title": "Challenge 78: Go Snippet",
+    "code": "const circuitBreaker = (fn) => { /* logic */ };",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 79,
+    "title": "Challenge 79: Typescript Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 80,
+    "title": "Challenge 80: Go Snippet",
+    "code": "const verifyTelemetryIntegrity = (data: any) => { return data.valid; };",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 81,
+    "title": "Challenge 81: Rust Snippet",
+    "code": "const jitter = (base: number) => base + Math.random() * 100;",
+    "difficulty": "medium",
+    "language": "rust"
+  },
+  {
+    "id": 82,
+    "title": "Challenge 82: Typescript Snippet",
+    "code": "const webWorkerSandbox = () => new Worker('sandbox.js');",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 83,
+    "title": "Challenge 83: Javascript Snippet",
+    "code": "const jwtRotation = (token: string) => { /* rotate logic */ };",
+    "difficulty": "hard",
+    "language": "javascript"
+  },
+  {
+    "id": 84,
+    "title": "Challenge 84: Typescript Snippet",
+    "code": "const monacoEditorInit = () => { /* editor setup */ };",
+    "difficulty": "easy",
+    "language": "typescript"
+  },
+  {
+    "id": 85,
+    "title": "Challenge 85: Rust Snippet",
+    "code": "const verifyTelemetryIntegrity = (data: any) => { return data.valid; };",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 86,
+    "title": "Challenge 86: Go Snippet",
+    "code": "const circuitBreaker = (fn) => { /* logic */ };",
+    "difficulty": "easy",
+    "language": "go"
+  },
+  {
+    "id": 87,
+    "title": "Challenge 87: Typescript Snippet",
+    "code": "const thermalThrottling = (cpu: number) => cpu > 85 ? 'throttle' : 'ok';",
+    "difficulty": "easy",
+    "language": "typescript"
+  },
+  {
+    "id": 88,
+    "title": "Challenge 88: Python Snippet",
+    "code": "const astParser = (code: string) => Acorn.parse(code);",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 89,
+    "title": "Challenge 89: Javascript Snippet",
+    "code": "const recoveryStrategy = (error: Error) => { logger.error(error); retry(); };",
+    "difficulty": "easy",
+    "language": "javascript"
+  },
+  {
+    "id": 90,
+    "title": "Challenge 90: Typescript Snippet",
+    "code": "const threatLevelAlgorithm = (logs: any[]) => logs.length > 100 ? 'high' : 'low';",
+    "difficulty": "hard",
+    "language": "typescript"
+  },
+  {
+    "id": 91,
+    "title": "Challenge 91: Typescript Snippet",
+    "code": "import { Pino } from 'pino'; const logger = Pino();",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 92,
+    "title": "Challenge 92: Javascript Snippet",
+    "code": "const d3Visualization = (data: any) => { /* render chart */ };",
+    "difficulty": "medium",
+    "language": "javascript"
+  },
+  {
+    "id": 93,
+    "title": "Challenge 93: Typescript Snippet",
+    "code": "const rateLimit = (req, res, next) => { /* check cache */ };",
+    "difficulty": "medium",
+    "language": "typescript"
+  },
+  {
+    "id": 94,
+    "title": "Challenge 94: Typescript Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "easy",
+    "language": "typescript"
+  },
+  {
+    "id": 95,
+    "title": "Challenge 95: Rust Snippet",
+    "code": "const schema = z.object({ id: z.string(), value: z.number() });",
+    "difficulty": "easy",
+    "language": "rust"
+  },
+  {
+    "id": 96,
+    "title": "Challenge 96: Python Snippet",
+    "code": "const schema = z.object({ id: z.string(), value: z.number() });",
+    "difficulty": "easy",
+    "language": "python"
+  },
+  {
+    "id": 97,
+    "title": "Challenge 97: Typescript Snippet",
+    "code": "def calculate_thermal_throttling(temp): return temp > 90",
+    "difficulty": "hard",
+    "language": "typescript"
+  },
+  {
+    "id": 98,
+    "title": "Challenge 98: Python Snippet",
+    "code": "const recoveryStrategy = (error: Error) => { logger.error(error); retry(); };",
+    "difficulty": "hard",
+    "language": "python"
+  },
+  {
+    "id": 99,
+    "title": "Challenge 99: Rust Snippet",
+    "code": "let mut buffer = String::new();",
+    "difficulty": "hard",
+    "language": "rust"
+  },
+  {
+    "id": 100,
+    "title": "Challenge 100: Rust Snippet",
+    "code": "const d3Visualization = (data: any) => { /* render chart */ };",
+    "difficulty": "medium",
+    "language": "rust"
+  }
+]
