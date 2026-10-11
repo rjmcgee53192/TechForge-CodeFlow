@@ -21,3 +21,15 @@ graph TD
 
 ## Hardware Agnostic Logic
 Designed to run on commodity hardware, CodeFlow leverages a lightweight inference orchestration layer. It gracefully degrades via jitter algorithms when VRAM caps are reached, ensuring stable execution without relying on massive, centralized cloud compute nodes.
+
+## Getting Started
+
+```bash
+npm install
+npm run dev      # start the Vite dev server
+```
+
+```bash
+npm run lint     # eslint (must pass with zero warnings)
+npm run build    # tsc + vite build
+```

@@ -1,8 +1,14 @@
 import { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
+interface TelemetryPoint {
+  time: string;
+  temp: number;
+  load: number;
+}
+
 const PerformanceGraph = () => {
-  const [data, setData] = useState<any[]>([]);
+  const [data, setData] = useState<TelemetryPoint[]>([]);
 
   useEffect(() => {
     const fetchTelemetry = async () => {

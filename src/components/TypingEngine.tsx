@@ -53,7 +53,7 @@ const TypingEngine: React.FC<{ onComplete: (code: string, wpm: number) => void }
       const randomChallenge = library[Math.floor(Math.random() * library.length)];
       setCurrentChallenge(randomChallenge);
     }
-  }, []);
+  }, [library]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const val = e.target.value;

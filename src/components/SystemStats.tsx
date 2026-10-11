@@ -50,7 +50,7 @@ const SystemStats = ({ onStatusChange }: { onStatusChange: (status: boolean) => 
     fetchTelemetry();
     const interval = setInterval(fetchTelemetry, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [onStatusChange]);
 
   return (
     <div className="bg-slate-800/40 backdrop-blur-md border border-slate-700/50 rounded-2xl p-6 w-full max-w-xs space-y-6 shadow-xl">
